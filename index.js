@@ -1,15 +1,6 @@
-window.alert("Raif Laskar created this")
-let count = 0
-
-document.getElementById("increase").onclick = function(){
-    count += 1
-    document.getElementById("Label").innerHTML = count
-}
-document.getElementById("reset").onclick = function(){
-    count = 0
-    document.getElementById("Label").innerHTML = count
-}
-document.getElementById("decrease").onclick = function(){
-    count -= 1
-    document.getElementById("Label").innerHTML = count
-}
+const name = document.getElementById("name")
+const Class = document.getElementById("Class")
+const email = document.getElementById("Email")
+const StudentId = document.getElementById("StudentId")
+const password = document.getElementById("Password")
+let LogInBtn = document.getElementById("LogInBtn")
