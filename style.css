@@ -1,9 +1,27 @@
-
-#Label{
-    display: block;
-    text-align: center;
-    font-size: 100px;
-}
-button{
-    font-size: 80px;
-}
+ body  {
+                margin: 0;
+                padding: 0;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: url("https://mcdn.wallpapersafari.com/medium/9/29/QrcNYG.jpg") center/cover no-repeat;
+                overflow: hidden;
+            }
+            .overlay {
+                position:absolute;
+                width: 100%;
+                height: 100%;
+                backdrop-filter: blur(8px);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .text-container {
+                z-index:1;
+                text-align:center;
+                color: white;
+                padding:20px;
+                background: rgba(255,255,255,0.7);
+                border-radius: 10px;
+            }
