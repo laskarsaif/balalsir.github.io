@@ -40,4 +40,18 @@ ul{
 #sidepan ul li:hover a{
     padding-left: 50px
 }
+#topnews{
+    font-size: 30px;
+    color: white;
+    text-align:center;
+    font-family: monospace;
+}
+#newsbox{
+    text-align: center;
+    border:4px solid purple;
+    margin-right:-19px;
+    padding:0%;
+    width:800px;
+    float: right
+}
   
