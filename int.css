@@ -1,0 +1,43 @@
+body{
+    background: black;
+    font-size: 35px;
+    padding: 20%;
+    color: white
+}
+.sidenav{
+    position: fixed;
+    left: 0;
+    font-size:30px;
+    margin-top: -350px;
+    width: 250px;
+    height: 100%;
+    background-color: #063146;
+}
+.button{
+    background-color: green;
+    font-size: 27px;
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+#sidepan ul li a{
+    display: block;
+    margin-left: -15px;
+    width: 100%;
+    height: 100%;
+    line-height: 150px;
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    padding-left:20px;
+    box-sizing: border-box;
+    border-top: 1px solid rgb(255, 255, 255, .1);
+    border-bottom:1px solid rgb(255, 255, 255, .1);
+    transition: .4s
+}
+#sidepan ul li:hover a{
+    padding-left: 50px
+}
+  
