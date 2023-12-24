@@ -15,3 +15,5 @@ document.getElementById("SubmitBtn").onclick = function(){
     Password: document.getElementById("Password").value,
   }
 }
+
+window.object = Identity
