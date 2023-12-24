@@ -1,3 +1,3 @@
 let info = window.object
 
-console.log("info.name")
+console.log("info.Name")
