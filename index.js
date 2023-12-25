@@ -16,4 +16,6 @@ document.getElementById("SubmitBtn").onclick = function(){
   }
 }
 
-window.object = Identity
+document.getElementById("SubmitBtn").onclick = function(){
+  window.object = Identity
+}
