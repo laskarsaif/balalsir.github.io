@@ -14,6 +14,7 @@ document.getElementById("SubmitBtn").onclick = function(){
     StudentId: document.getElementById("StudentId").value,
     Password: document.getElementById("Password").value,
   }
+  console.log(Identity)
 }
 
 document.getElementById("SubmitBtn").onclick = function(){
