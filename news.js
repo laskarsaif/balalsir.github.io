@@ -1,12 +1,13 @@
 let newsone = document.querySelector("#newsone")
 
 function editannouncement(){
-    newnews = window.prompt("write new announcement")
+    let newnews = window.prompt("write new announcement")
     if(newsone == ""){
-        newsone.textContent = newnews
+        newsone = newnews
     }
     else{
-        newsone.textContent = newnews
+        newsone = newnews
     }
+    localStorage.setItem("latestnews", newnews)
 
 }
