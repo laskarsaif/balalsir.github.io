@@ -7,11 +7,7 @@
     <link rel="stylesheet" href="int.css">
 </head>
 <body>
-    <script>
-       let newsone = document.querySelector("#newsone")
-       newsone.textContent = localStorage.getItem("latestnews")
-       console.log(localStorage.getItem("latestnews"))
-    </script>
+
     <h1 id="topnews">TOP NEWS:</h1>
     <div id="newsbox">
         <h2 id="newsone"></h2>
@@ -25,5 +21,10 @@
  
         </ul>
     </div>
+    <script>
+       let newsone = document.querySelector("#newsone")
+       newsone.textContent = localStorage.getItem("latestnews")
+       console.log(localStorage.getItem("latestnews"))
+    </script>
 </body>
 </html>
